@@ -17,6 +17,7 @@
 
 .nav ul {
     display: flex;
+    margin-left: 140px;
 }
 
 .nav ul span {
@@ -105,6 +106,7 @@
 .activitu_list ul {
     margin-left: 20px;
     float: left;
+    text-align: left;
 }
 
 .activitu_list ul li {
@@ -166,8 +168,11 @@
     overflow: hidden;
 }
 
+.study_content {
+    float: left;
+}
+
 .study_content ul {
-    overflow: hidden;
     height: 210px;
     float: none;
     width: 100%;
@@ -183,6 +188,7 @@
     height: 42px;
     line-height: 42px;
     list-style-type: disc;
+    text-align: left;
 }
 
 .study_content li a:hover {
