@@ -1,0 +1,371 @@
+.wrap {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.header {
+    width: 100%;
+    height: 260px;
+}
+
+
+/* 头部导航栏 */
+
+.nav {
+    margin: 0 auto 13px;
+}
+
+.nav ul {
+    display: flex;
+}
+
+.nav ul span {
+    color: #f0e0c0;
+    font-size: 18px;
+}
+
+.nav li {
+    height: 28px;
+    line-height: 28px;
+    margin: 0 29px;
+}
+
+.nav li a {
+    color: #f0e0c0;
+    font-size: 25px;
+}
+
+
+/* 轮播图标题 */
+
+.slideshow_title {
+    background-color: #fff;
+    padding-bottom: 20px;
+}
+
+.slideshow_title .title_1 {
+    padding-top: 28px;
+    padding-bottom: 8px;
+    color: rgb(217, 0, 13);
+    font-size: 25px;
+}
+
+.slideshow_title .title_2 {
+    height: auto;
+    color: rgb(217, 0, 13);
+    font-family: 微软雅黑, 宋体;
+    font-size: 20px;
+    overflow: hidden;
+}
+
+
+/* 轮播图 */
+
+.slideshow {
+    width: 100%;
+    height: 646px;
+}
+
+
+/* 活动内容 */
+
+.activity {
+    width: 100%;
+    height: 450px;
+}
+
+.activity_title {
+    width: 668px;
+    height: 34px;
+    line-height: 34px;
+    display: flex;
+}
+
+.activity_title h2 {
+    margin-left: 20px;
+    color: #e10e08;
+    font-size: 30px;
+}
+
+.activity_title p {
+    margin-left: 55px;
+    height: 34px;
+    line-height: 34px;
+    font-size: 20px;
+}
+
+.activity_title p a {
+    color: #f0e0c0;
+}
+
+.activitu_list {
+    font-size: 20px;
+}
+
+.activitu_list ul {
+    margin-left: 20px;
+    float: left;
+}
+
+.activitu_list ul li {
+    list-style-type: disc;
+    height: 30px;
+    line-height: 30px;
+    margin: 10px 0;
+}
+
+.activitu_list ul li a:hover {
+    color: red;
+}
+
+.activity_tv {
+    float: right;
+    position: relative;
+}
+
+.activity_tv_title {
+    position: relative;
+    top: -34px;
+}
+
+.activity_tv_content span {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: inline-block;
+    width: 54px;
+    height: 46px;
+    background: #b30a16 url(../images/shipin_btn.png) center center no-repeat;
+}
+
+.activity_tv_content p {
+    position: absolute;
+    left: 54px;
+    bottom: 0;
+    font-size: 14px;
+    line-height: 19px;
+    font-family: "microsoft yahei";
+    background: #de0010;
+    width: 316px;
+    height: 47px;
+    padding: 5px 20px;
+    overflow: hidden;
+}
+
+
+/* 学习贯彻 */
+
+.study {
+    width: 100%;
+    height: 386px;
+    background: url(../images/xxgc_bg.jpg) top center no-repeat;
+}
+
+.study_title {
+    padding: 48px;
+    overflow: hidden;
+}
+
+.study_content ul {
+    overflow: hidden;
+    height: 210px;
+    float: none;
+    width: 100%;
+    padding: 10px;
+}
+
+.study_content li {
+    height: auto;
+    float: left;
+    width: 514px;
+    margin-right: 20px;
+    font-size: 18px;
+    height: 42px;
+    line-height: 42px;
+    list-style-type: disc;
+}
+
+.study_content li a:hover {
+    color: red;
+}
+
+
+/* 庆祝活动 */
+
+.celebrate {
+    width: 100%;
+    height: 833px;
+    background: url(../images/qzhd_bg.jpg) no-repeat;
+}
+
+.celebrate_title {
+    padding: 80px 0 42px;
+}
+
+.celebrate_content {
+    overflow: hidden;
+    width: 1090px;
+    border: 5px solid #c6e8ff;
+    margin: 36px 0 120px;
+    display: flex;
+}
+
+.celebrate_content_video {
+    width: 750px;
+    height: 450px;
+    overflow: hidden;
+}
+
+.celebrate_content_video img {
+    display: none;
+}
+
+.celebrate_content_img {
+    display: block !important;
+}
+
+.celebrate_content_title {
+    width: 343px;
+    height: 450px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding-left: 12px;
+    margin-left: -12px;
+    position: relative;
+}
+
+.celebrate_content_title li {
+    text-align: left;
+    position: relative;
+    width: 338px;
+    height: 90px;
+    line-height: 90px;
+    padding: 18px 20px 18px 20px;
+    background: url(../images/line.png) rgba(255, 255, 255, 0.8) 0 bottom no-repeat;
+    vertical-align: bottom;
+}
+
+.celebrate_content_title li:last-child {
+    background: rgba(255, 255, 255, 0.8) 0 bottom no-repeat;
+}
+
+.celebrate_content_title .celebrate_content_activity {
+    background: #e1af45 !important;
+}
+
+.celebrate_content_title .celebrate_content_activity .sanjiao {
+    position: absolute;
+    display: block;
+    width: 12px;
+    height: 28px;
+    background: url(../images/sanjiao.png) no-repeat;
+    left: -12px;
+    top: 50%;
+    margin-top: -14px;
+}
+
+.celebrate_content_title .celebrate_content_activity_title {
+    height: 60px;
+    line-height: 60px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.celebrate_content_title .celebrate_content_activity_title p {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+
+/* 学习党史 */
+
+.history {
+    width: 100%;
+    height: 406px;
+    background-color: #fff;
+}
+
+.history_title {
+    width: 100%;
+}
+
+.history_left {
+    float: left;
+}
+
+.history_right {
+    float: left;
+}
+
+.history_left_content,
+.history_right_content {
+    width: 538px;
+    height: 285px;
+    background: url(../images/department_bg.jpg) no-repeat;
+}
+
+.history_left_content ul {
+    overflow: hidden;
+    float: left;
+    width: 504px;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.history_left_content ul li {
+    height: 42px;
+    padding-left: 16px;
+    list-style-type: disc;
+    float: left;
+}
+
+.history_left_content ul li a {
+    font-size: 17px;
+    line-height: 42px;
+}
+
+.history_left_content ul li a:hover {
+    color: red;
+}
+
+
+/* 右边 */
+
+.history_right_content ul {
+    overflow: hidden;
+    float: left;
+    width: 504px;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.history_right_content ul li {
+    height: 42px;
+    padding-left: 16px;
+    list-style-type: disc;
+    float: left;
+}
+
+.history_right_content ul li a {
+    font-size: 17px;
+    line-height: 42px;
+}
+
+.history_right_content ul li a:hover {
+    color: red;
+}
+
+
+/* 图集 */
+
+.atlas {
+    width: 100%;
+    height: 480px;
+    background: url(../images/qzhd_bg.jpg) no-repeat;
+    padding-bottom: 64px;
+}
+
+.atlas_slideshow {
+    height: 206px;
+    width: 100%;
+}
